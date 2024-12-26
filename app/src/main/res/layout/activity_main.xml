@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#b8d232">
+
+    <ImageView
+        android:id="@+id/img_phone"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/phonelogo"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PhoneBook"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textColor="#325bd2"
+        android:layout_below="@+id/img_phone"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_1stpg"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_title"
+        android:backgroundTint="#469e42"
+        android:layout_marginTop="250dp"
+        android:text="Check"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        />
+
+
+
+
+
+</RelativeLayout>
